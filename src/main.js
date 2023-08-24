@@ -5,6 +5,8 @@ import router from './router';
 // 引入element-plus
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+// 引入全局样式
+import './assets/css/index.scss'
 
 // 注册路由/elementplus
 createApp(App).use(router).use(ElementPlus).mount('#app')

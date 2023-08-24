@@ -8,9 +8,8 @@
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-function toLogin() {
+function toLogin (): void {
 	router.push({name: 'Home'})
-	console.log(1)
 }
 </script>
 
